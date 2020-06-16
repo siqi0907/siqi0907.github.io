@@ -1,0 +1,340 @@
+/* start from mobile */
+body{
+    background-image: url(./images/bg-image/scooter.svg);
+    background-repeat: no-repeat;
+    background-size: 20rem;
+    background-position: center;
+}
+.logo{
+    padding-left: 1.rem;
+    width: 150px;
+    height: 150px;
+    margin-top: 0px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 6rem;
+    padding-left: 2rem;
+    margin-top: 10px;
+    line-height: 110px;
+    margin-bottom: 0px;
+}
+.head p{
+    font-size: 2.1rem;
+    padding-left: 2rem;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.wrapper{
+    background-color: #ffffff;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    margin-top: 200px;
+    padding-bottom: 20px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 10px;
+}
+fieldset{
+    border: 0px;
+    box-shadow: 10px 10px 10px 5px darkgray ;
+    border-radius: 25px;
+}
+input{
+    width: 80%;
+    margin: 0.25rem;
+    border: 0px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    resize: vertical;
+    padding: 10px;
+}
+.box{
+    font-size: 0.95rem;
+}
+.box input{
+    width: 10%;
+    height: 1.5rem;
+}
+span{
+    color: #ff8480;
+}
+.check p{
+    font-size: 1.5rem;
+    text-align: left;
+    padding-left: 30px;
+}
+input[type=submit]{
+    background-color: #57eeab;
+    border: 0px;
+    width: 325px;
+}
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: #fffd8c;
+    bottom: 0px;
+}
+.foothead p{
+    padding-left: 2rem;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 40px;
+    padding-top: 30px;
+}
+.foot p{
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    padding-bottom: 0px;
+}
+.time{
+    margin-bottom: 0px;
+    padding-left: 2rem;
+    width: 50px;
+}
+.city{
+    padding-left: 2.2rem ;
+    width: 100px;
+}
+.calculate input[type=submit]{
+    background-color: #ff8480;
+    padding-right: 0px;
+    width: 100px;
+}
+.bottom{
+    display: flex;
+}
+.media{
+    display: flex;
+    margin-left: 2rem;
+}
+img{
+    margin: 25px;
+    width: 50px;
+    height: 50px;
+}
+@media(min-width: 550px){
+    .logo{
+        padding-left: 2rem;
+    }
+    h1{
+        padding-left: 4rem;
+    }
+    .head p{
+        padding-left: 4rem;
+        font-size: 1.8rem;
+    }
+    .wrapper{
+        padding-left: 4rem;
+        padding-right: 4rem;
+        text-align: left;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    .info p{
+        padding-left: 0.5rem;
+    }
+    input{
+        width: 90%;
+        padding: 15px;
+    }
+    .box input{
+        width: 5%;
+        height: 1.5rem;
+    }
+    .check p{
+        font-size: 1rem;
+        text-align: center;
+    }
+    input[type=submit]{
+        width: 575px;
+    }
+    footer{
+        height: 200px;
+    }
+    .foothead p{
+        padding-left: 4rem;
+        padding-top: 0px;
+        font-size: 1rem;
+        margin-bottom: 0px;
+    }
+    .foot p{
+        padding-left: 4rem;
+        font-size: 1rem;
+        margin-top: 0px;
+    }
+    .time{
+        padding-left: 4rem;
+        width: 100px;
+    }
+    .city{
+        padding-left: 50px;
+        width: 250px;
+    }
+    .calculate input[type=submit]{
+        margin-left: 50px;
+        width: 200px;
+    }
+    .media{
+        display: flex;
+        margin-left: 250px;
+    }
+    .media img{
+        margin: 20px;
+        width: 30px;
+        height: 30px;
+    }
+}
+@media(min-width: 800px){
+    body{
+        background-size: 40rem;
+        background-position-y: 40px;
+    }
+    h1{
+        font-size: 55px;
+        line-height: 70px;
+        padding-left: 1rem;
+    }
+    .logo{
+        width: 100px;
+        height: 100px;
+        padding-left: 5rem;
+        margin-top: 0px;
+    }
+    .head{
+        float: left;
+        width: 25%;
+        padding-left: 100px;
+        margin: 0 auto;
+        line-height: 60px;
+    }
+    .head p{
+        line-height: 50px;
+        margin-top: 10px;
+        font-size: 1rem;
+        padding-left: 1rem;
+        line-height: 25px;
+    }
+    /* This is the setup for the table */
+    .wrapper{
+        float: right;
+        margin-top: -10px;
+        line-height: 10px;
+    }
+    h2{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .info p{
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+    form{
+
+    }
+    fieldset{
+        width: 24px;
+    }
+    input{
+        width: 80%;
+        height: 0.75rem;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .box{
+        font-size: 1rem;
+    }
+    .box input{
+        width: 2%;
+        height: 0.75rem;
+    }
+    .input01{
+        height: 2.5rem;
+    }
+    input[type=submit]{
+        background-color: #57eeab;
+        border: 0px;
+    }
+    .check p{
+        font-size: 0.1rem;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    /* Set the background color of the Footer */
+    footer{
+        background-color: #fffd8c;
+        width: 100%;
+        height: 150px;
+        position: absolute;
+        bottom: 0px;
+    }
+    /* This is the setup for the Footer */
+    .foothead p{
+        position: absolute;
+        bottom: 0px;
+        padding-left: 100px;
+        margin-bottom: 80px;
+        font-family: sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .foot p{
+        position: absolute;
+        bottom: 0px;
+        padding-left: 100px;
+        margin-bottom: 50px;
+    }
+    .time{
+        position: absolute;
+        bottom: 0px;
+
+        padding-left: 100px;
+        width: 110px;
+    }
+    .city{
+        position: absolute;
+        bottom: 0px;
+        padding-left: 250px;
+        width: 220px;
+    }
+    .calculate{
+        position: absolute;
+        bottom: 0px;
+        padding-left: 500px;
+        width: 190px;
+    }
+    /* Adjust the color of the button */
+    .calculate input[type=submit]{
+        background-color: #ff8480;
+        border: 0px;
+        height: 40px;
+    }
+    .media{
+        margin-left: 1000px;
+        padding-bottom: 20px;
+    }  
+}
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
