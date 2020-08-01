@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    display: block;
+    border:none;
+}
+a{
+    text-decoration: none;
+}
+.wrap{
+    padding:20px 0 0 0;
+}
+.logo{
+    width: 80px;
+    float: left;
+}
+header{
+    padding:0 5%;
+    width:100%;
+    box-sizing:border-box;
+}
+.wrap nav{
+    float:right;
+    width:60%;
+}
+.wrap nav a{
+    color:#666;
+    float:left;
+    display:block;
+    width:33%;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+banner img{
+    width:100%;
+}
+.tit1{
+    text-align:center;
+    font-size: 24px;
+    padding:20px 0;
+    font-weight: normal;
+}
+.con1{
+    width:90%;
+    margin:0 auto;
+    overflow: hidden;
+    background-color:#fdd6d6;
+}
+.con1_l{
+    width: 70%;
+    float: left;
+    color: #666;
+    padding-top: 70px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.con1_r{
+    width:30%;
+    float:right;
+}
+.con1_r img{
+    width:100%;
+}
+.line{
+    padding-top: 20px;
+    border-top: 1px solid #d0cfcf;
+    margin-top: 30px;
+}
+.con2{
+    background-color:#000;
+    overflow:hidden;
+    padding:20px;
+}
+.con2 img{
+    width:50%;
+    float:left;
+    box-sizing:border-box;
+    padding:10px;
+
+}
+footer{
+    background-color:#fdd6d6;
+    padding:30px;
+    min-width: 380px;
+    overflow:hidden;
+    box-sizing:border-box;
+}
+.top{
+    float:right;
+    width:60px;
+}
+footer div{
+    float:left;
+    width:80%;
+}
+footer div a{
+    display:block;
+    float:left;
+    width:33%;
+    color:#666;
+    height:60px;
+    line-height:60px;
+}
+.about1{
+    box-sizing:border-box;
+    padding:70px 20%;
+}
+.con3{
+    width:90%;
+    box-sizing:border-box;
+    background-color:#c6c3c3;
+    padding:10px;
+    line-height:1.5em;
+    margin:0 auto;
+    font-size:14px;
+}
+.con4{
+    width:90%;
+    margin:0 auto;
+    background-color:#000;
+    color:#fdd6d6;
+    overflow:hidden;
+}
+.con4 div{
+    width:33%;
+    float:left;
+}
+.con4 div img{
+    width:80%;
+    margin:20px auto;
+}
+.con4 div p{
+    text-align:center;
+    padding:0px 0 10px 0;
+}
+.con5{
+    width:100%;
+    background-color:#fdd6d6;
+    padding:20px 5%;
+    box-sizing:border-box;
+}
+.con5 form{
+    width:100%;
+    height:100%;
+    border:1px solid #ccc;
+    background-color:#fff;
+    padding:10px 5%;
+    box-sizing:border-box;
+    display:block;
+}
+.con5 h2{
+    text-align: center;
+    font-size:12px;
+    font-weight:normal;
+}
+.con5 span{
+    font-size:12px;
+    display:inline-block;
+    width:20%;
+}
+.con5 div{
+    margin-top:20px;
+}
+.con5 div input{
+    width:70%;
+    padding:6px 0;
+}
+.con5 form button{
+    display:block;
+    width:50%;
+    margin:10px auto;
+    border:none;
+    background-color:#fdd6d6;
+    height:24px;
+    line-height:24px;
+    text-align:center;
+    font-size:12px;
+}
+.infor{
+    width:100%;
+    padding:20px 5%;
+    border:20px solid #000;
+    box-sizing:border-box;
+    background-color:#fff;
+}
+.p,.menu{
+    display:none;
+}
+/* for ipad */
+@media screen and (max-width: 960px){
+    header nav{
+        display:block;
+    }
+    .con1{
+        padding:20%;
+        box-sizing:border-box;
+    }
+    .con1_l{
+        width:100%;
+        box-sizing:border-box;
+        padding:10%;
+        float:right;
+    }
+    .con1_r{
+        width:100%;
+    }
+    .con4 div{
+        width:50%;
+        float:left;
+        box-sizing:border-box;
+        padding:20px;
+    }
+    .con4 div:nth-child(3){
+        width:80%;
+        box-sizing:border-box;
+        padding:20px;
+        margin:0 auto;
+        float:none;
+    }
+    .con4 div:nth-child(3) img{
+        width:51%;
+    }
+}
+/* For iphone */
+@media screen and (max-width: 640px){
+    header nav{
+        display:none;
+    }
+    .wrap nav{
+        width:100%;
+        background-color:#eee;
+    }
+    .wrap nav a{
+        display:block;
+        float:left;
+        text-align:center;
+        width:33%;
+        height:50px;
+        line-height:50px;
+    }
+    .menu{
+        width:33%;
+        display:block;
+        float:left;
+        box-sizing:border-box;
+        padding:0 10% 10px 10%;
+    }
+    .p{
+        width:33%;
+        display:block;
+        float:right;
+        box-sizing:border-box;
+        padding:0 10% 10px 10%;
+    }
+    .logo{
+        width:33%;
+        box-sizing:border-box;
+        padding:0 10% 10px 10%;
+    }
+    .con2 img {
+        width: 100%;
+        float: left;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    .con4 div{
+        width:100%;
+        box-sizing:border-box;
+        padding:20px;
+    }
+    .con5 div input{
+        width:88%;
+        display:block;
+        margin:0 auto;
+    }
+
+}
